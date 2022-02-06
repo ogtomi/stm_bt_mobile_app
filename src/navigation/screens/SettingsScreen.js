@@ -34,7 +34,7 @@ const SettingsScreen = () => {
 
   return (
     <View>
-      <Button title="Scan bluetooth devices" onPress={scanDevices} />
+      <Button color="#3b5998" title="Scan bluetooth devices" onPress={scanDevices} />
       {devices.map((device) => <DeviceCard device={device} />)}
     </View>
   );
@@ -44,6 +44,9 @@ const styles = StyleSheet.create({
   textBasic: {
     color: 'black',
   },
+  button: {
+    color: '#3b5998'
+  }
 });
 
 export default SettingsScreen;

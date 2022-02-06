@@ -20,7 +20,8 @@ const styles = StyleSheet.create({
     marginTop: 10,
     marginBottom: 10,
     shadowOpacity: 0.4,
-    padding: 2
+    padding: 2,
+    borderRadius: 10,
   },
   textBasic: {
     color: 'black',

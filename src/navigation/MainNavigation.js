@@ -30,9 +30,9 @@ const MainNavigation = () => {
             let routeName = route.name;
 
             if (routeName === settingsScreen) {
-              iconName = focused ? 'home' : 'home-outline';
+              iconName = focused ? 'md-settings' : 'md-settings-outline';
             } else if (routeName === funcScreen) {
-              iconName = focused ? 'person' : 'person-outline';
+              iconName = focused ? 'ios-grid' : 'ios-grid-outline';
             }
             return <Ionicons name={iconName} size={size} color={color} />;
           },
